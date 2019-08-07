@@ -1,0 +1,507 @@
+ul,
+ol,
+li {
+    list-style-type: none
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* .wrap {
+    width: 100%;
+    height: 100%;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topbox {
+    height: 1.73rem;
+}
+
+.top {
+    width: 7.50rem;
+    box-sizing: border-box;
+    padding: 0.12rem 0.30rem;
+    height: 0.80rem;
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    z-index: 500;
+    border-top: 2px solid #f5f5f5;
+}
+
+.searchbox {
+    height: 0.56rem;
+    line-height: 0.56rem;
+    text-align: center;
+    width: 6.20rem;
+    padding-left: 1.94rem;
+    float: left;
+    margin-right: 0.12rem;
+    background-color: rgb(245, 245, 250);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.searchicon {
+    height: 0.56rem;
+    width: 0.33rem;
+    float: left;
+}
+
+.searchtext {
+    height: 0.56rem;
+    line-height: 0.56rem;
+    float: left;
+    font-size: 0.26rem;
+    margin-left: 0.05rem;
+    color: rgb(204, 204, 204);
+}
+
+.top_msg {
+    float: left;
+    width: 0.56rem;
+    height: 0.56rem;
+}
+
+.typebar {
+    background-color: #fff;
+    width: 100%;
+    height: 0.88rem;
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5;
+    position: fixed;
+    left: 0;
+    top: 0.80rem;
+    /* z-index: 500; */
+    overflow: hidden;
+}
+
+.typebar .typet_content {
+    height: 0.88rem;
+    width: 120%;
+    white-space: nowrap;
+    transition: all 0.5s;
+}
+
+.typebar .typet_content .typet_list {
+    /* display: inline-block; */
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 0.30rem;
+    width: 1.30rem;
+    float: left;
+}
+
+.typebar .select {
+    font-size: 0.34rem;
+    color: rgb(255, 0, 66)!important;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* .============轮播======= */
+
+.swiper-wrapper .swiper-slide {
+    width: 7.5rem;
+    height: 3.75rem;
+}
+
+.swiper-wrapper .swiper-slide img {
+    width: 7.5rem;
+    height: 3.75rem;
+}
+
+
+/* =============正品保证======== */
+
+.contenttipbar {
+    width: 7.50rem;
+    height: 0.4rem;
+    border-top: 2px solid #f5f5f5;
+    margin-top: 2px;
+}
+
+.contenttipbar img {
+    display: block;
+    width: 7.50rem;
+    /* height: 0.4rem; */
+}
+
+
+/* 图标跳转 */
+
+.iconroute {
+    border: 2px solid #f5f5f5;
+}
+
+.iconroute div:first-child {
+    margin-bottom: 0px;
+}
+
+.iconroute div:last-child {
+    margin-top: 0px;
+}
+
+.content_top_bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem 0 0;
+    height: 1.64rem;
+    box-sizing: border-box;
+    margin: 2px auto;
+    background-color: #fff;
+}
+
+.content_top_bar_img {
+    width: 1rem;
+    height: 1.02rem;
+}
+
+
+/* ===============店主精选============== */
+
+.content_center_title {
+    line-height: 0.48rem;
+    font-size: 0.34rem;
+    color: rgb(51, 51, 51);
+    padding: 0.40rem 0 0.30rem 0rem;
+    display: inline-block;
+}
+
+.content_center_jingxuan_more {
+    font-size: 0.28rem;
+    color: rgb(51, 51, 51);
+    line-height: 0.40rem;
+    position: absolute;
+    right: 0.330rem;
+    top: 0.52rem;
+}
+
+.content_center_dzjx {
+    padding: 0 0.30rem 0.86rem;
+    position: relative;
+}
+
+.content_center_dzjx_li {
+    margin-bottom: 0.20rem;
+    border-radius: 0.16rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0.02rem 0.08rem 0 rgba(181, 181, 181, 0.56);
+    shape-outside: unset;
+}
+
+.content_center_dzjx_li:last-child {
+    margin-bottom: 0;
+}
+
+.content_center_dzjx_li>img {
+    float: left;
+    width: 2.90rem;
+    height: 2.90rem;
+    /* border-radius: 16rem; */
+}
+
+.content_center_dzjx_li_details {
+    float: left;
+    padding: 0.23rem 0.23rem 0;
+    width: 4.00rem;
+    box-sizing: border-box;
+}
+
+.content_center_dzjx_li_title {
+    height: 0.76rem;
+    line-height: 0.38rem;
+    font-size: 0.26rem;
+    color: rgb(51, 51, 51);
+    margin-bottom: 0.20rem;
+    overflow: hidden;
+}
+
+.content_center_dzjx_li_type_func {
+    height: 0.24rem;
+    margin-bottom: 0.23rem;
+}
+
+.content_center_dzjx_li_type_func>div {
+    float: left;
+    line-height: 0.24rem;
+    height: 0.24rem;
+    overflow: hidden;
+    font-size: 0.24rem;
+    color: rgb(153, 153, 153);
+}
+
+.content_center_dzjx_li_type {
+    /* max-width: 4em; */
+    width: 80%;
+}
+
+.content_center_dzjx_li_func {
+    max-width: 8em;
+}
+
+.content_center_dzjx_li_price {
+    color: rgb(153, 153, 153);
+    font-size: 0.28rem;
+    line-height: 0.40rem;
+    height: 0.40rem;
+    margin-bottom: 0.20rem;
+}
+
+.content_center_dzjx_li_retComission {
+    color: rgb(255, 0, 66);
+    font-size: 0.28rem;
+    line-height: 0.40rem;
+}
+
+.content_center_dzjx_li_recommend {
+    font-size: 0.32rem;
+    line-height: 0.70rem;
+    width: 0.70rem;
+    height: 0.70rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(135deg, rgb(139, 237, 126), rgb(92, 181, 80));
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    right: 0.38rem;
+    bottom: 0.30rem;
+}
+
+.txtov1 {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+
+/* ============热门推荐============ */
+
+.content_bottom {
+    margin-top: 2px;
+}
+
+.content_bottom_title {
+    line-height: 0.48rem;
+    font-size: 0.34rem;
+    color: rgb(51, 51, 51);
+    padding: 0.40rem 0 0.30rem 0.30rem;
+    display: inline-block;
+}
+
+
+/*================== 限时秒杀 =======================*/
+
+.content_bottom_xsms {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+
+.content_bottom_xsms_time {
+    position: absolute;
+    left: 2.17rem;
+    top: 0.42rem;
+    height: 0.44rem;
+}
+
+.content_bottom_xsms_time>img {
+    float: left;
+    height: 0.44rem;
+    width: 0.24rem;
+}
+
+.content_bottom_xsms_time>div {
+    float: left;
+    height: 0.44rem;
+    /* min-width: 44rem; */
+    width: 2.2em;
+    /* padding: 0 5rem; */
+    font-size: 0.30rem;
+    border-radius: 0.10rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(86, 188, 55);
+}
+
+.content_bottom_xsms_checkall {
+    position: absolute;
+    right: 0.30rem;
+    top: 0.40rem;
+    padding: 0 0.21rem 0 0.23rem;
+    line-height: 0.46rem;
+    font-size: 0.24rem;
+    color: #fff;
+    background-color: rgb(86, 188, 55);
+    border-radius: 1.00rem;
+}
+
+.content_bottom_xsms_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0.30rem 0.25rem;
+}
+
+.content_bottom_xsms_li {
+    width: 2.24rem;
+}
+
+.content_bottom_xsms_litop {
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(117, 213, 112);
+    border: 1px solid rgb(117, 213, 112);
+    box-sizing: border-box;
+    border-radius: 0.10rem;
+    margin-bottom: 0.10rem;
+    overflow: hidden;
+}
+
+.content_bottom_xsms_img {
+    width: 2.24rem;
+    height: 2.24rem;
+}
+
+.content_bottom_xsms_price {
+    color: #fff;
+    background-color: rgb(86, 188, 55);
+    font-size: 0.24rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.content_bottom_xsms_introduce {
+    line-height: 0.33rem;
+    height: 0.33rem;
+    font-size: 0.24rem;
+    color: rgb(90, 90, 90);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center
+}
+
+
+/* 热门推荐 */
+
+.content_bottom_rmtj {
+    background-color: #fff;
+}
+
+.content_bottom_rmtj_list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content_bottom_rmtj_li {
+    width: 3.74rem;
+    height: 5.60rem;
+    position: relative;
+    float: left;
+}
+
+.content_bottom_rmtj_li_img {
+    width: 3.74rem;
+    height: 3.74rem;
+}
+
+.content_bottom_rmtj_li_title {
+    padding: 0.10rem 0.28rem 0;
+    margin-bottom: 0.10rem;
+    color: rgb(51, 51, 51);
+    line-height: 0.33rem;
+    font-size: 0.24rem;
+    height: 0.66rem;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.content_bottom_rmtj_li_details {
+    position: relative;
+    padding-left: 0.30rem;
+    height: 0.30rem;
+}
+
+.content_bottom_rmtj_li_details>div:not(.content_bottom_rmtj_li_tip) {
+    float: left;
+    color: rgb(204, 204, 204);
+    font-size: 0.22rem;
+    line-height: 0.30rem;
+    height: 0.30rem;
+}
+
+.content_bottom_rmtj_li_type {
+    /* max-width: 4em;
+    overflow: hidden; */
+    width: 1.90rem;
+}
+
+.content_bottom_rmtj_li_func {
+    max-width: 0.04em;
+    overflow: hidden;
+}
+
+.content_bottom_rmtj_li_tip {
+    position: absolute;
+    font-size: 0.16rem;
+    line-height: 0.22rem;
+    height: 0.22rem;
+    bottom: 0.02rem;
+    right: 0.30rem;
+    color: rgb(204, 204, 204);
+}
+
+.content_bottom_rmtj_li_currentprice {
+    position: absolute;
+    left: 0.30rem;
+    bottom: 0.02rem;
+    color: rgb(255, 0, 66);
+    line-height: 0.45rem;
+    font-size: 0.32rem;
+}
+
+.content_bottom_rmtj_li_oldprice {
+    position: absolute;
+    right: 0.30rem;
+    bottom: 0.07rem;
+    color: rgb(204, 204, 204);
+    line-height: 0.28rem;
+    font-size: 0.20rem;
+    text-decoration: line-through;
+}
+
+.rmtj_box {
+    position: relative;
+}
