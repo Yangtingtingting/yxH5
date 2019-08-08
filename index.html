@@ -50,11 +50,11 @@
         <div class="typebar">
             <div class="typet_content">
                 <div class="typet_list select" onclick="route_yx()">推荐</div>
-                <div class="typet_list">百货</div>
-                <div class="typet_list">服装</div>
-                <div class="typet_list">鞋包</div>
-                <div class="typet_list">家居</div>
-                <div class="typet_list">家用电器</div>
+                <div class="typet_list" onclick="route_yx()">百货</div>
+                <div class="typet_list" onclick="route_yx()">服装</div>
+                <div class="typet_list" onclick="route_yx()">鞋包</div>
+                <div class="typet_list" onclick="route_yx()">家居</div>
+                <div class="typet_list" onclick="route_yx()">家用电器</div>
             </div>
         </div>
     </div>
@@ -77,27 +77,27 @@
         <div class="content_top_bar">
             <a href="./yxqb.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxqb.png" /></a>
             <a href="./yxcx.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxcx.png" /></a>
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxsm.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxrs.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxft.png" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxsm.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxrs.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxft.png" onclick="route_yx()" />
         </div>
         <div class="content_top_bar">
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/qhb.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/umzq.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/dzzj.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/hmgs.png" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/sck.png" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/qhb.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/umzq.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/dzzj.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/hmgs.png" onclick="route_yx()" />
+            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/sck.png" onclick="route_yx()" />
         </div>
     </div>
     <div class="content_center">
         <!-- 店主精选模块 -->
         <div class="content_center_dzjx">
             <text class="content_center_title">店主精选</text>
-            <div class="content_center_jingxuan_more">
+            <div class="content_center_jingxuan_more" onclick="route_yx()">
                 查看更多 >
             </div>
             <div class="content_center_dzjx_list">
-                <div class="content_center_dzjx_li" data-goodsid="{{item.id}}" wx:for="{{dzjxdata}}">
+                <div class="content_center_dzjx_li" onclick="route_yx()">
                     <img src="https://shop.ux315.com/upload/images/4dUZIXuUlv190710.jpg" alt="">
                     <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
                     <div class="content_center_dzjx_li_details">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="content_center_dzjx_li_recommend">荐</div>
                 </div>
-                <div class="content_center_dzjx_li" data-goodsid="{{item.id}}" wx:for="{{dzjxdata}}">
+                <div class="content_center_dzjx_li" onclick="route_yx()">
                     <img src="https://shop.ux315.com/upload/images/ARLDKTlsmf190717.jpg" alt="">
                     <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
                     <div class="content_center_dzjx_li_details">
@@ -127,7 +127,7 @@
                     </div>
                     <div class="content_center_dzjx_li_recommend">荐</div>
                 </div>
-                <div class="content_center_dzjx_li" data-goodsid="{{item.id}}" wx:for="{{dzjxdata}}">
+                <div class="content_center_dzjx_li" onclick="route_yx()">
                     <img src="https://shop.ux315.com/upload/images/W8P6Oc2EWq190717.jpg" alt="">
                     <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
                     <div class="content_center_dzjx_li_details">
@@ -142,7 +142,6 @@
                     </div>
                     <div class="content_center_dzjx_li_recommend">荐</div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -153,12 +152,12 @@
                 <div class="content_bottom_title" selectable="false" space="false" decode="false">
                     限时秒杀
                 </div>
-                <div bindtap="xsms_checkall" class="content_bottom_xsms_checkall">
+                <div bindtap="xsms_checkall" class="content_bottom_xsms_checkall" onclick="route_yx()">
                     查看全部 >
                 </div>
 
                 <div class="content_bottom_xsms_list">
-                    <div data-seckill_id="{{item.seckill_id}}" bindtap="opengoodsdetailsdefault" wx:for="{{xsmsdata}}" wx:if="{{index<=2}}" wx:key class="content_bottom_xsms_li" data-goodsid="{{item.id}}">
+                    <div onclick="route_yx()">
                         <div class="content_bottom_xsms_litop">
                             <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
                             <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/vyFNcOrLs3190717.jpg" alt="">
@@ -170,7 +169,7 @@
                             海藻绒鹿角三件套
                         </div>
                     </div>
-                    <div data-seckill_id="{{item.seckill_id}}" bindtap="opengoodsdetailsdefault" wx:for="{{xsmsdata}}" wx:if="{{index<=2}}" wx:key class="content_bottom_xsms_li" data-goodsid="{{item.id}}">
+                    <div onclick="route_yx()">
                         <div class="content_bottom_xsms_litop">
                             <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
                             <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/DnaSWq1TmU190717.jpg" alt="">
@@ -182,7 +181,7 @@
                             夹心海苔
                         </div>
                     </div>
-                    <div data-seckill_id="{{item.seckill_id}}" bindtap="opengoodsdetailsdefault" wx:for="{{xsmsdata}}" wx:if="{{index<=2}}" wx:key class="content_bottom_xsms_li" data-goodsid="{{item.id}}">
+                    <div onclick="route_yx()">
                         <div class="content_bottom_xsms_litop">
                             <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
                             <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/gWriZxtQA3190719.jpg" alt="">
@@ -202,7 +201,7 @@
                     热门推荐
                 </div>
                 <div class="content_bottom_rmtj_list">
-                    <div class="content_bottom_rmtj_li">
+                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
                         <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
                         <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/f499670ddd5a2211ec17542ce12898ac.jpg" alt="">
                         <div class="content_bottom_rmtj_li_title txtov2">
@@ -224,7 +223,7 @@
                             原价 ￥20.00
                         </div>
                     </div>
-                    <div class="content_bottom_rmtj_li">
+                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
                         <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
                         <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/70f587ecbaa08b25222b3345366901cf.jpg" alt="">
                         <div class="content_bottom_rmtj_li_title txtov2">
@@ -246,7 +245,7 @@
                             原价 ￥40.00
                         </div>
                     </div>
-                    <div class="content_bottom_rmtj_li">
+                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
                         <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
                         <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/MtnCZ9ZeSb190701.jpg" alt="">
                         <div class="content_bottom_rmtj_li_title txtov2">
@@ -268,7 +267,7 @@
                             原价 ￥480.00
                         </div>
                     </div>
-                    <div class="content_bottom_rmtj_li">
+                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
                         <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
                         <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/35b419fcb2d1c260c78f8d7a8ce9b961.jpg" alt="">
                         <div class="content_bottom_rmtj_li_title txtov2">
@@ -325,10 +324,11 @@
         });
 
         function route_yx() {
+            // console.log(123456789)
             // 判断是否在微信环境下
             let wx = navigator.userAgent.toLowerCase();
             if (wx.match(/MicroMessenger/i) === 'micromessenger') {
-                console.log('这是微信环境')
+                // console.log('这是微信环境')
                 wx.miniProgram.navigateTo({
                     url: '/pages/indexnew/indexnew'
                 });
