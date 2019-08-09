@@ -326,9 +326,16 @@
         function route_yx() {
             // console.log(123456789)
             // 判断是否在微信环境下
+            debugger;
+            wx.miniProgram.navigateTo({
+                url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
+            });
             let wx = navigator.userAgent.toLowerCase();
             if (wx.match(/MicroMessenger/i) === 'micromessenger') {
                 // console.log('这是微信环境')
+                wx.config({
+
+                })
                 wx.miniProgram.navigateTo({
                     url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
                 });
