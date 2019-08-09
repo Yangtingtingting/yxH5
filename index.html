@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>悠享360</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="dist/css/swiper.min.css">
     <script>
@@ -330,7 +330,7 @@
             if (wx.match(/MicroMessenger/i) === 'micromessenger') {
                 // console.log('这是微信环境')
                 wx.miniProgram.navigateTo({
-                    url: '/pages/indexnew/indexnew'
+                    url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
                 });
                 return;
             } else {
