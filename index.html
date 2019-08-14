@@ -38,259 +38,280 @@
 </head>
 
 <body>
-    <div class="topbox">
-        <div class="top">
-            <div class="searchbox">
-                <img class="searchicon" src="./imgs/search.png" />
-                <div class="searchtext">搜索商品名称或品牌</div>
-            </div>
-            <img class="top_msg" src="./imgs/index_msg.png" />
-        </div>
-        <!-- 类型选择部分 -->
-        <div class="typebar">
-            <div class="typet_content">
-                <div class="typet_list select" onclick="route_yx()">推荐</div>
-                <div class="typet_list" onclick="route_yx()">百货</div>
-                <div class="typet_list" onclick="route_yx()">服装</div>
-                <div class="typet_list" onclick="route_yx()">鞋包</div>
-                <div class="typet_list" onclick="route_yx()">家居</div>
-                <div class="typet_list" onclick="route_yx()">家用电器</div>
-            </div>
-        </div>
-    </div>
-    <!-- 轮播图 -->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/d00b9533728775784f363b90ad7b97c.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner6.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/aea508be8dfabb5cd97e00b9f7c96a8.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/微信图片_20190801100259.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner2.jpg" alt=""></div>
-        </div>
-    </div>
-    <!-- 正品保证提示 -->
-    <div class="contenttipbar">
-        <img src="./imgs/contenttipbar.png" alt="">
-    </div>
-    <div class="iconroute">
-        <div class="content_top_bar">
-            <a href="./yxqb.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxqb.png" /></a>
-            <a href="./yxcx.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxcx.png" /></a>
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxsm.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxrs.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxft.png" onclick="route_yx()" />
-        </div>
-        <div class="content_top_bar">
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/qhb.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/umzq.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/dzzj.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/hmgs.png" onclick="route_yx()" />
-            <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/sck.png" onclick="route_yx()" />
-        </div>
-    </div>
-    <div class="content_center">
-        <!-- 店主精选模块 -->
-        <div class="content_center_dzjx">
-            <text class="content_center_title">店主精选</text>
-            <div class="content_center_jingxuan_more" onclick="route_yx()">
-                查看更多 >
-            </div>
-            <div class="content_center_dzjx_list">
-                <div class="content_center_dzjx_li" onclick="route_yx()">
-                    <img src="https://shop.ux315.com/upload/images/4dUZIXuUlv190710.jpg" alt="">
-                    <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
-                    <div class="content_center_dzjx_li_details">
-                        <div class="content_center_dzjx_li_title txtov2">New.B水杯</div>
-                        <div class="content_center_dzjx_li_type_func">
-                            <div class="content_center_dzjx_li_type txtov1">
-                                一杯两用 亦喷亦喝
-                            </div>
-                        </div>
-                        <div class="content_center_dzjx_li_price">￥19.00</div>
-                        <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
-                    </div>
-                    <div class="content_center_dzjx_li_recommend">荐</div>
+    <div class="wrap">
+        <div class="topbox">
+            <div class="top">
+                <div class="searchbox">
+                    <img class="searchicon" src="./imgs/search.png" />
+                    <div class="searchtext">搜索商品名称或品牌</div>
                 </div>
-                <div class="content_center_dzjx_li" onclick="route_yx()">
-                    <img src="https://shop.ux315.com/upload/images/ARLDKTlsmf190717.jpg" alt="">
-                    <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
-                    <div class="content_center_dzjx_li_details">
-                        <div class="content_center_dzjx_li_title txtov2">F12 牛蒡茶</div>
-                        <div class="content_center_dzjx_li_type_func">
-                            <div class="content_center_dzjx_li_type txtov1">
-                                低温发酵，口感更柔和，比传统牛蒡茶更健康
-                            </div>
-                        </div>
-                        <div class="content_center_dzjx_li_price">￥69.00</div>
-                        <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
-                    </div>
-                    <div class="content_center_dzjx_li_recommend">荐</div>
-                </div>
-                <div class="content_center_dzjx_li" onclick="route_yx()">
-                    <img src="https://shop.ux315.com/upload/images/W8P6Oc2EWq190717.jpg" alt="">
-                    <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
-                    <div class="content_center_dzjx_li_details">
-                        <div class="content_center_dzjx_li_title txtov2">F12 便携拔罐器2支装</div>
-                        <div class="content_center_dzjx_li_type_func">
-                            <div class="content_center_dzjx_li_type txtov1">
-                                食品级纳米硅胶 质地柔软，安全可靠不伤害肌肤
-                            </div>
-                        </div>
-                        <div class="content_center_dzjx_li_price">￥39.00</div>
-                        <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
-                    </div>
-                    <div class="content_center_dzjx_li_recommend">荐</div>
+                <img class="top_msg" src="./imgs/index_msg.png" />
+            </div>
+            <!-- 类型选择部分 -->
+            <div class="typebar">
+                <div class="typet_content">
+                    <div class="typet_list select" onclick="route_yx()">推荐</div>
+                    <div class="typet_list" onclick="route_yx()">百货</div>
+                    <div class="typet_list" onclick="route_yx()">服装</div>
+                    <div class="typet_list" onclick="route_yx()">鞋包</div>
+                    <div class="typet_list" onclick="route_yx()">家居</div>
+                    <div class="typet_list" onclick="route_yx()">家用电器</div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- 限时秒杀  及热门推荐 -->
-    <div class="rmtj_box">
-        <div class="content_bottom" hover-class="none" hover-stop-propagation="false">
-            <div class="content_bottom_xsms">
-                <div class="content_bottom_title" selectable="false" space="false" decode="false">
-                    限时秒杀
+        <!-- 轮播图 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/微信图片_20190808141900.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner6.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/aea508be8dfabb5cd97e00b9f7c96a8.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/微信图片_20190801100259.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="https://shop.ux315.com/upload/images/banner2.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 正品保证提示 -->
+        <div class="contenttipbar">
+            <img src="./imgs/contenttipbar.png" alt="">
+        </div>
+        <div class="iconroute">
+            <div class="content_top_bar">
+                <a href="./yxqb.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxqb.png" /></a>
+                <a href="./yxcx.html"><img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxcx.png" /></a>
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxsm.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxrs.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/yxft.png" onclick="route_yx()" />
+            </div>
+            <div class="content_top_bar">
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/qhb.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/umzq.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/dzzj.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/hmgs.png" onclick="route_yx()" />
+                <img class="content_top_bar_img" src="https://shop.ux315.com/img/xcx/sck.png" onclick="route_yx()" />
+            </div>
+        </div>
+        <div class="content_center">
+            <!-- 店主精选模块 -->
+            <div class="content_center_dzjx">
+                <text class="content_center_title">店主精选</text>
+                <div class="content_center_jingxuan_more" onclick="route_yx()">
+                    查看更多 >
                 </div>
-                <div bindtap="xsms_checkall" class="content_bottom_xsms_checkall" onclick="route_yx()">
-                    查看全部 >
+                <div class="content_center_dzjx_list">
+                    <div class="content_center_dzjx_li" onclick="route_yx()">
+                        <img src="https://shop.ux315.com/upload/images/4dUZIXuUlv190710.jpg" alt="">
+                        <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
+                        <div class="content_center_dzjx_li_details">
+                            <div class="content_center_dzjx_li_title txtov2">New.B水杯</div>
+                            <div class="content_center_dzjx_li_type_func">
+                                <div class="content_center_dzjx_li_type txtov1">
+                                    一杯两用 亦喷亦喝
+                                </div>
+                            </div>
+                            <div class="content_center_dzjx_li_price">￥19.00</div>
+                            <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
+                        </div>
+                        <div class="content_center_dzjx_li_recommend">荐</div>
+                    </div>
+                    <div class="content_center_dzjx_li" onclick="route_yx()">
+                        <img src="https://shop.ux315.com/upload/images/ARLDKTlsmf190717.jpg" alt="">
+                        <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
+                        <div class="content_center_dzjx_li_details">
+                            <div class="content_center_dzjx_li_title txtov2">F12 牛蒡茶</div>
+                            <div class="content_center_dzjx_li_type_func">
+                                <div class="content_center_dzjx_li_type txtov1">
+                                    低温发酵，口感更柔和，比传统牛蒡茶更健康
+                                </div>
+                            </div>
+                            <div class="content_center_dzjx_li_price">￥69.00</div>
+                            <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
+                        </div>
+                        <div class="content_center_dzjx_li_recommend">荐</div>
+                    </div>
+                    <div class="content_center_dzjx_li" onclick="route_yx()">
+                        <img src="https://shop.ux315.com/upload/images/W8P6Oc2EWq190717.jpg" alt="">
+                        <!-- <image mode="aspectFill" src="{{baseurl_pics+item.picture}}"></image> -->
+                        <div class="content_center_dzjx_li_details">
+                            <div class="content_center_dzjx_li_title txtov2">F12 便携拔罐器2支装</div>
+                            <div class="content_center_dzjx_li_type_func">
+                                <div class="content_center_dzjx_li_type txtov1">
+                                    食品级纳米硅胶 质地柔软，安全可靠不伤害肌肤
+                                </div>
+                            </div>
+                            <div class="content_center_dzjx_li_price">￥39.00</div>
+                            <div class="content_center_dzjx_li_retComission">分享赚取佣金</div>
+                        </div>
+                        <div class="content_center_dzjx_li_recommend">荐</div>
+                    </div>
                 </div>
-
-                <div class="content_bottom_xsms_list">
-                    <div onclick="route_yx()">
-                        <div class="content_bottom_xsms_litop">
-                            <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
-                            <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/vyFNcOrLs3190717.jpg" alt="">
-                            <div class="content_bottom_xsms_price">
-                                秒杀价:49.9元
-                            </div>
-                        </div>
-                        <div class="content_bottom_xsms_introduce">
-                            海藻绒鹿角三件套
-                        </div>
+            </div>
+        </div>
+        <!-- 限时秒杀  及热门推荐 -->
+        <div class="rmtj_box">
+            <div class="content_bottom" hover-class="none" hover-stop-propagation="false">
+                <div class="content_bottom_xsms">
+                    <div class="content_bottom_title" selectable="false" space="false" decode="false">
+                        限时秒杀
                     </div>
-                    <div onclick="route_yx()">
-                        <div class="content_bottom_xsms_litop">
-                            <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
-                            <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/DnaSWq1TmU190717.jpg" alt="">
-                            <div class="content_bottom_xsms_price">
-                                秒杀价:29.99
-                            </div>
-                        </div>
-                        <div class="content_bottom_xsms_introduce">
-                            夹心海苔
-                        </div>
-                    </div>
-                    <div onclick="route_yx()">
-                        <div class="content_bottom_xsms_litop">
-                            <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
-                            <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/gWriZxtQA3190719.jpg" alt="">
-                            <div class="content_bottom_xsms_price">
-                                秒杀价:79.9元
-                            </div>
-                        </div>
-                        <div class="content_bottom_xsms_introduce">
-                            儿童牙刷
-                        </div>
+                    <div bindtap="xsms_checkall" class="content_bottom_xsms_checkall" onclick="route_yx()">
+                        查看全部 >
                     </div>
 
-                </div>
-            </div>
-            <div class="content_bottom_rmtj" hover-class="none" hover-stop-propagation="false">
-                <div class="content_bottom_title" selectable="false" space="false" decode="false">
-                    热门推荐
-                </div>
-                <div class="content_bottom_rmtj_list">
-                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
-                        <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
-                        <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/f499670ddd5a2211ec17542ce12898ac.jpg" alt="">
-                        <div class="content_bottom_rmtj_li_title txtov2">
-                            <!-- {{item.name}} -->
-                            滋食网红黑糖麦芽夹心饼干2袋装
+                    <div class="content_bottom_xsms_list">
+                        <div onclick="route_yx()">
+                            <div class="content_bottom_xsms_litop">
+                                <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
+                                <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/vyFNcOrLs3190717.jpg" alt="">
+                                <div class="content_bottom_xsms_price">
+                                    秒杀价:49.9元
+                                </div>
+                            </div>
+                            <div class="content_bottom_xsms_introduce">
+                                海藻绒鹿角三件套
+                            </div>
                         </div>
-                        <div class="content_bottom_rmtj_li_details">
-                            <div class="content_bottom_rmtj_li_type txtov1">
+                        <div onclick="route_yx()">
+                            <div class="content_bottom_xsms_litop">
+                                <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
+                                <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/DnaSWq1TmU190717.jpg" alt="">
+                                <div class="content_bottom_xsms_price">
+                                    秒杀价:29.99
+                                </div>
+                            </div>
+                            <div class="content_bottom_xsms_introduce">
+                                夹心海苔
+                            </div>
+                        </div>
+                        <div onclick="route_yx()">
+                            <div class="content_bottom_xsms_litop">
+                                <!-- <image mode="aspectFill" class="content_bottom_xsms_img" src="{{baseurl_pics+item.picture}}" /> -->
+                                <img class="content_bottom_xsms_img" src="https://shop.ux315.com/upload/images/gWriZxtQA3190719.jpg" alt="">
+                                <div class="content_bottom_xsms_price">
+                                    秒杀价:79.9元
+                                </div>
+                            </div>
+                            <div class="content_bottom_xsms_introduce">
+                                儿童牙刷
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="content_bottom_rmtj" hover-class="none" hover-stop-propagation="false">
+                    <div class="content_bottom_title" selectable="false" space="false" decode="false">
+                        热门推荐
+                    </div>
+                    <div class="content_bottom_rmtj_list">
+                        <div class="content_bottom_rmtj_li" onclick="route_yx()">
+                            <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
+                            <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/f499670ddd5a2211ec17542ce12898ac.jpg" alt="">
+                            <div class="content_bottom_rmtj_li_title txtov2">
+                                <!-- {{item.name}} -->
                                 滋食网红黑糖麦芽夹心饼干2袋装
                             </div>
-                            <div class="content_bottom_rmtj_li_tip">
-                                250人购买过
+                            <div class="content_bottom_rmtj_li_details">
+                                <div class="content_bottom_rmtj_li_type txtov1">
+                                    滋食网红黑糖麦芽夹心饼干2袋装
+                                </div>
+                                <div class="content_bottom_rmtj_li_tip">
+                                    250人购买过
+                                </div>
+                            </div>
+                            <div class="content_bottom_rmtj_li_currentprice">
+                                ￥14.90
+                            </div>
+                            <div class="content_bottom_rmtj_li_oldprice">
+                                原价 ￥20.00
                             </div>
                         </div>
-                        <div class="content_bottom_rmtj_li_currentprice">
-                            ￥14.90
-                        </div>
-                        <div class="content_bottom_rmtj_li_oldprice">
-                            原价 ￥20.00
-                        </div>
-                    </div>
-                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
-                        <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
-                        <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/70f587ecbaa08b25222b3345366901cf.jpg" alt="">
-                        <div class="content_bottom_rmtj_li_title txtov2">
-                            <!-- {{item.name}} -->
-                            千泉天然维生素E软胶囊0.25g/粒*100粒
-                        </div>
-                        <div class="content_bottom_rmtj_li_details">
-                            <div class="content_bottom_rmtj_li_type txtov1">
-                                植物元素 天然萃取 维E含量高
+                        <div class="content_bottom_rmtj_li" onclick="route_yx()">
+                            <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
+                            <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/70f587ecbaa08b25222b3345366901cf.jpg" alt="">
+                            <div class="content_bottom_rmtj_li_title txtov2">
+                                <!-- {{item.name}} -->
+                                千泉天然维生素E软胶囊0.25g/粒*100粒
                             </div>
-                            <div class="content_bottom_rmtj_li_tip">
-                                183人购买过
+                            <div class="content_bottom_rmtj_li_details">
+                                <div class="content_bottom_rmtj_li_type txtov1">
+                                    植物元素 天然萃取 维E含量高
+                                </div>
+                                <div class="content_bottom_rmtj_li_tip">
+                                    183人购买过
+                                </div>
                             </div>
-                        </div>
-                        <div class="content_bottom_rmtj_li_currentprice">
-                            ￥28.00
-                        </div>
-                        <div class="content_bottom_rmtj_li_oldprice">
-                            原价 ￥40.00
-                        </div>
-                    </div>
-                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
-                        <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
-                        <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/MtnCZ9ZeSb190701.jpg" alt="">
-                        <div class="content_bottom_rmtj_li_title txtov2">
-                            <!-- {{item.name}} -->
-                            H11 石墨烯护腰
-                        </div>
-                        <div class="content_bottom_rmtj_li_details">
-                            <div class="content_bottom_rmtj_li_type txtov1">
-                                护腰、健康
+                            <div class="content_bottom_rmtj_li_currentprice">
+                                ￥28.00
                             </div>
-                            <div class="content_bottom_rmtj_li_tip">
-                                1258人购买过
+                            <div class="content_bottom_rmtj_li_oldprice">
+                                原价 ￥40.00
                             </div>
                         </div>
-                        <div class="content_bottom_rmtj_li_currentprice">
-                            ￥368.00
-                        </div>
-                        <div class="content_bottom_rmtj_li_oldprice">
-                            原价 ￥480.00
-                        </div>
-                    </div>
-                    <div class="content_bottom_rmtj_li" onclick="route_yx()">
-                        <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
-                        <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/35b419fcb2d1c260c78f8d7a8ce9b961.jpg" alt="">
-                        <div class="content_bottom_rmtj_li_title txtov2">
-                            <!-- {{item.name}} -->
-                            古法熬制香尚美正宗梨膏糖纯手工清凉润喉
-                        </div>
-                        <div class="content_bottom_rmtj_li_details">
-                            <div class="content_bottom_rmtj_li_type txtov1">
-                                传统工艺 手工熬制 无添加 润喉爽口
+                        <div class="content_bottom_rmtj_li" onclick="route_yx()">
+                            <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
+                            <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/MtnCZ9ZeSb190701.jpg" alt="">
+                            <div class="content_bottom_rmtj_li_title txtov2">
+                                <!-- {{item.name}} -->
+                                H11 石墨烯护腰
                             </div>
-                            <div class="content_bottom_rmtj_li_tip">
-                                239人购买过
+                            <div class="content_bottom_rmtj_li_details">
+                                <div class="content_bottom_rmtj_li_type txtov1">
+                                    护腰、健康
+                                </div>
+                                <div class="content_bottom_rmtj_li_tip">
+                                    1258人购买过
+                                </div>
+                            </div>
+                            <div class="content_bottom_rmtj_li_currentprice">
+                                ￥368.00
+                            </div>
+                            <div class="content_bottom_rmtj_li_oldprice">
+                                原价 ￥480.00
                             </div>
                         </div>
-                        <div class="content_bottom_rmtj_li_currentprice">
-                            ￥17.00
-                        </div>
-                        <div class="content_bottom_rmtj_li_oldprice">
-                            原价 ￥69.00
+                        <div class="content_bottom_rmtj_li" onclick="route_yx()">
+                            <!-- <image mode="aspectFill" class="content_bottom_rmtj_li_img" src="{{baseurl_pics+item.picture}}" /> -->
+                            <img class="content_bottom_rmtj_li_img" src="https://shop.ux315.com/upload/images/35b419fcb2d1c260c78f8d7a8ce9b961.jpg" alt="">
+                            <div class="content_bottom_rmtj_li_title txtov2">
+                                <!-- {{item.name}} -->
+                                古法熬制香尚美正宗梨膏糖纯手工清凉润喉
+                            </div>
+                            <div class="content_bottom_rmtj_li_details">
+                                <div class="content_bottom_rmtj_li_type txtov1">
+                                    传统工艺 手工熬制 无添加 润喉爽口
+                                </div>
+                                <div class="content_bottom_rmtj_li_tip">
+                                    239人购买过
+                                </div>
+                            </div>
+                            <div class="content_bottom_rmtj_li_currentprice">
+                                ￥17.00
+                            </div>
+                            <div class="content_bottom_rmtj_li_oldprice">
+                                原价 ￥69.00
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <!-- <div class="dig"> -->
+        <div class="dialog" id="dialog">
+        </div>
+        <!-- 换绑人信息模态框内容 -->
+        <div class="dig_content" id="dig_content">
+            <div class="dig_top">
+                <img src="./imgs/360.png" alt="">
+                <div class="clear">
+
+                </div>
+                <div class="tx_word">长按进入商城</div>
+            </div>
+
+            <div class="dig_cz">
+                <!-- <div>换绑</div> -->
+                <div onclick="diagiocancel()">取消</div>
+            </div>
+
         </div>
     </div>
 
@@ -326,25 +347,42 @@
         function route_yx() {
             // console.log(123456789)
             // 判断是否在微信环境下
-            debugger;
-            wx.miniProgram.navigateTo({
-                url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
-            });
-            let wx = navigator.userAgent.toLowerCase();
-            if (wx.match(/MicroMessenger/i) === 'micromessenger') {
-                // console.log('这是微信环境')
-                wx.config({
+            // debugger;
+            // wx.miniProgram.navigateTo({
+            //     url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
+            // });
+            // let wx = navigator.userAgent.toLowerCase();
+            // if (wx.match(/MicroMessenger/i) === 'micromessenger') {
+            //     // console.log('这是微信环境')
+            //     wx.config({
 
-                })
-                wx.miniProgram.navigateTo({
-                    url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
-                });
-                return;
-            } else {
-                console.log('这是浏览器环境');
-                return;
-            }
+            //     })
+            //     wx.miniProgram.navigateTo({
+            //         url: '/pages/indexnew/indexnew' //这是跳转小程序的路径
+            //     });
+            //     return;
+            // } else {
+            //     console.log('这是浏览器环境');
+            //     return;
+            // }
 
+            dig.style.display = "block";
+            dig_content.style.display = "block"
+
+        }
+        // 模态框禁止滑动
+        // document.getElementById("dialog").addEventListener("touchmove", function(e) {
+        //     console.log(12345)
+        //     var _x = e.touches[0].pageX;
+        //     var _y = e.touches[0].pageY;
+        //     event.preventDefault();
+        // })
+        var dig = document.getElementById("dialog");
+        var dig_content = document.getElementById("dig_content");
+        // 模态框取消事件
+        function diagiocancel() {
+            dig.style.display = "none";
+            dig_content.style.display = "none"
         }
     </script>
 </body>

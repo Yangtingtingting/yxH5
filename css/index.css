@@ -25,6 +25,10 @@ a:hover {
     margin: 0;
 }
 
+.wrap {
+    position: relative;
+}
+
 .topbox {
     height: 1.73rem;
 }
@@ -36,11 +40,13 @@ a:hover {
     height: 0.80rem;
     background-color: #fff;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0px;
-    z-index: 500;
+    /* z-index: 500; */
     border-top: 2px solid #f5f5f5;
+    /* transform: translate(-50%, -50%) */
+    margin: 0 auto;
 }
 
 .searchbox {
@@ -83,7 +89,7 @@ a:hover {
     height: 0.88rem;
     border-top: 2px solid #f5f5f5;
     border-bottom: 2px solid #f5f5f5;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     top: 0.80rem;
     /* z-index: 500; */
@@ -129,6 +135,8 @@ a:hover {
 .swiper-wrapper .swiper-slide img {
     width: 7.5rem;
     height: 3.75rem;
+    margin: 0 auto;
+    display: block;
 }
 
 
@@ -504,4 +512,76 @@ a:hover {
 
 .rmtj_box {
     position: relative;
+}
+
+
+/* =========遮罩层======= */
+
+.dialog {
+    /* width: 100%;
+    height: 100vh; */
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: none;
+    /* pointer-events: none; */
+}
+
+
+/* 模态框弹出的内容 */
+
+.dig_content {
+    background: #fff;
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    overflow: hidden;
+    display: none
+}
+
+.dig_top {
+    padding: 0.43rem 0.65rem;
+    border: 2px solid #f5f5f5;
+}
+
+.dig_top img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.dig_cz {
+    line-height: 0.8rem;
+    display: flex;
+    font-size: 0.34rem;
+}
+
+.dig_cz div {
+    flex: 1;
+    text-align: center;
+}
+
+.dig_cz div:first-child {
+    border-right: 2px solid #f5f5f5;
+    color: rgb(204, 204, 204)
+}
+
+.dig_cz div:last-child {
+    color: rgb(86, 188, 55);
+}
+
+.tx_word {
+    font-size: 0.3rem;
+    color: red;
+    text-align: center;
 }
